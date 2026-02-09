@@ -12,7 +12,7 @@ source:
 build:
   skip: true  # [py<311 or win]
   script: bash run_install_mac_linux.sh; {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 2
 
 requirements:
   build:
